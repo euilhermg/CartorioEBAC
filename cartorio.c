@@ -123,6 +123,7 @@ int main()
 			printf("\t 1 - Registro de nomes \n");
 			printf("\t 2 - Cadastro de nomes \n");
 			printf("\t 3 - Exclusão de nomes \n"); 
+			printf("\t 4- Sair para Área de trabalho \n");
 			printf("Opcão: \t");
 
 			scanf("%d", &opcao); 
@@ -141,6 +142,11 @@ int main()
 
 				case 3:
 				deletar();
+				break;
+				
+				case 4:
+				printf("Obrigado por utilizar nosso sistema de registro :D \n");
+				return 0;
 				break;
 			
 				default: 
